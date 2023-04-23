@@ -13,6 +13,7 @@ app = Flask(__name__)
 
 @app.route('/', strict_slashes=False)
 def home():
+    """Displays Hello"""
     return "Hello HBNB!"
 
 
